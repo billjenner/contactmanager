@@ -166,7 +166,7 @@ index.js
 
 ### Course
 
--[React Front to Back](https://www.udemy.com/course/draft/1812112/learn/lecture/11138502#overview/)
+- [React Front to Back](https://www.udemy.com/course/draft/1812112/learn/lecture/11138502#overview/)
 
 ### Certificate
 
