@@ -1,10 +1,8 @@
-# Contact Manager - Course React Front to Back
+# Contact Manager -
 
 > ## Run Application
 >
 > > [[Here]](https://billjenner.github.io/contactmanager/)
-
--[React Front to Back](https://www.udemy.com/course/draft/1812112/learn/lecture/11138502#overview/)
 
 ### Setup
 
@@ -165,6 +163,10 @@ index.js
 - [React & Webpack 4 From Scratch - Github](https://github.com/bradtraversy/react_webpack_starter)
 
 - [Providers & Consumers](https://reactjs.org/docs/context.html)
+
+### Course
+
+-[React Front to Back](https://www.udemy.com/course/draft/1812112/learn/lecture/11138502#overview/)
 
 ### Certificate
 
