@@ -55,8 +55,14 @@
 
 > npm install
 > Verify / update package.json
-> npm start > http://localhost:3000
-> npm run build
+
+- Run local
+
+  > npm run start > http://localhost:3000
+
+- Push to Github Pages
+
+  > npm run deploy
 
 #### Visual Studio Extentions
 
