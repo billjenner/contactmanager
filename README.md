@@ -1,4 +1,4 @@
-# Contact Manager -
+# Contact Manager - React Web App
 
 > ## Run Application
 >
