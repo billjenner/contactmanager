@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+# Course React Front to Back
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-[React Front to Back](https://www.udemy.com/course/draft/1812112/learn/lecture/11138502#overview/)
 
-## Available Scripts
+```
 
-In the project directory, you can run:
 
-### `npm start`
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Setup
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> npm --version
 
-### `npm test`
+- no longer globaly supported
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  > npm uninstall -g create-react-app
 
-### `npm run build`
+- react, react-dom, react-scripts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  > npx create-react-app contactmanager
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  > npm install bootstrap
 
-### `npm run eject`
+- gen new GUID utility
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  > npm install uuid
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- client side validation utility
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  > npm install classnames
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- React routing utility
 
-## Learn More
+  > npm install react-router-dom
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Axios
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  > npm install --save axios
 
-### Code Splitting
+- enable Emmit for React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  > settings > search emmet > include languages, add item (javascript, javascriptreact)
 
-### Analyzing the Bundle Size
+- React Developer Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  > Chrome > Home > Extensions > React Developer Tools
 
-### Making a Progressive Web App
+- Redux Stat manager
+  > Chrome > Home > Extensions > Redux DevTools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Rebuild
 
-### Advanced Configuration
+> npm install
+> Verify / update package.json
+> npm start > http://localhost:3000
+> npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Visual Studio Extentions
 
-### Deployment
+> Bracket Pair Colorizer
+> ES7/React/Redux/GraphQL/React-Native snippets (rcc)
+> Live Server
+> Prettier - Code formatter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- VS Code settings > CTRL ,
 
-### `npm run build` fails to minify
+  ```
+  editor.formatOnSave" true
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  emmit.includeLanguages: {
+    javascript: "javascriptreact"
+  }
+  emmet.syntaxProfiles: {
+    javascript: "jsx"
+    javascript: "html
+  }
+  ```
+
+```
+
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"start": "lite-server"
+}
+
+```
+
+> tsc -w (compile on auto-save)
+> npm start (run lite-server)
+> http://localhost:3000
+
+#### Notes
+
+```
+  <div id="root"></div>
+
+index.js
+  ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+
+// context api, redux manager for application level state
+// jsx
+  htmlfor
+  <br />
+  return - a single parent element
+
+  function Contact() {
+  return (
+    <div className="App">
+      <h1>Hello</h1>
+    </div>
+  );
+
+  class Contact extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello</h1>
+      </div>
+    );
+  }
+
+  export default Contact;
+
+  App.js
+    <Contact />
+}
+}
+
+  // bootstrap navbar shortcut
+  nav.navbar.navbar-expand-sm.navbar-dark.bg-danger.mb-3.py-0
+```
+
+### References
+
+- [ES6 Refresser](./es6_refresher_start/main.js)
+
+- [Node JS](https://nodejs.org/en/)
+
+- [Git](https://git-scm.com/)
+
+- [Babel](https://babeljs.io/)
+
+- [Parcel](https://parceljs.org/)
+
+- [Axios](https://github.com/axios/axios)
+
+- [React](https://reactjs.org/)
+
+- [Font Awsome](https://fontawesome.com/icons?d=gallery)
+
+- [React Tutorial #3.5 - React Dev Tools](https://www.youtube.com/watch?v=TRPfZ4INN9w)
+
+- [React & Webpack 4 From Scratch - No CLI](https://www.youtube.com/watch?v=deyxI-6C2u4&t=977s)
+
+- [React & Webpack 4 From Scratch - Github](https://github.com/bradtraversy/react_webpack_starter)
+
+- [Providers & Consumers](https://reactjs.org/docs/context.html)
+
+### Certificate
+
+![Certificate](./images/certificate.png)
