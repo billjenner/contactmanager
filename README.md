@@ -94,10 +94,6 @@
 
 ```
 
-> tsc -w (compile on auto-save)
-> npm start (run lite-server)
-> http://localhost:3000
-
 #### Notes
 
 ```
