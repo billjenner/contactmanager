@@ -1,11 +1,10 @@
-# Course React Front to Back
+# Contact Manager - Course React Front to Back
+
+> ## Run Application
+>
+> > [[Here]](https://billjenner.github.io/contactmanager/)
 
 -[React Front to Back](https://www.udemy.com/course/draft/1812112/learn/lecture/11138502#overview/)
-
-```
-
-
-```
 
 ### Setup
 
@@ -38,6 +37,10 @@
 - Axios
 
   > npm install --save axios
+
+- Github pages
+
+  > npm install gh-pages
 
 - enable Emmit for React
 
